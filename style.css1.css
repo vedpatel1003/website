@@ -190,21 +190,20 @@ li.a{
 a.home{
     padding: 14px 19px;
 }
-.secright {
+.secright{
     display: flex;
     height: 400px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     margin: auto;
     max-width: 80%;
-    text-align: end;
+    text-align: center;
 }
 
 .sectiontag{
-    margin: revert;
-    font-family: cursive;
     text-align: center;
     font-size: xx-large;
+    font-family: cursive;
 }
 
 .sectionSubTag {
@@ -271,4 +270,10 @@ img.fluid {
     align-items: center;
     max-width: 80%;
     margin: auto;
-}
+  }
+
+
+
+
+
+

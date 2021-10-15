@@ -1,0 +1,6 @@
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    padding: 21px 41px;
