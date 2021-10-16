@@ -253,7 +253,7 @@ body{
   .btn-1 {
     background: rgb(11, 11, 240);
     background: linear-gradient(rgb(241, 236, 228) 0%, rgb(10, 52, 240) 100%);
-    border: 
+    border: 3px solid white;
   }
   .btn-1:hover {
      background: rgb(0,3,255);
