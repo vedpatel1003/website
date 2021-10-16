@@ -62,7 +62,7 @@
 } 
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url('new_york.jpg');
+    background: rgba(0, 0, 0, 0.7) url('images/new_york.jpg');
     background-size:inherit;
     background-blend-mode:exclusion;
     opacity:0.5
