@@ -17,6 +17,8 @@
     display: flex;
     justify-content:inherit;
     font-family: cursive;
+    text-align: center;
+    background-color: black;
    
 }
 
@@ -31,7 +33,7 @@
 .nav-list li{
     width: 50%;
     display: flex;
-    background-color: white;
+    background-color:black;
     font-family:cursive;
 }
 
@@ -65,11 +67,11 @@
     background: rgba(0, 0, 0, 0.7) url('images/new_york.jpg');
     background-size:inherit;
     background-blend-mode:exclusion;
-    opacity:0.5
+    opacity: 0.5;
 }
 
 .background:hover{
-    opacity: 1.0;
+    opacity: 1.5;
 }
 
 a{
@@ -108,7 +110,8 @@ a{
 
 .text-big{
     font-size: 31px;
-    color: purple;
+    color: black;
+    border: 3px soild white;
     font-style:initial;
     font-size: xx-large;
     text-align: center;
@@ -118,7 +121,7 @@ a{
 
 .text-small{
     font-size: 21px;
-    color:black;
+    color: black;
     font-style:initial;
     text-align: center;
     min-height: 20vh;
@@ -728,22 +731,8 @@ body{
       inset -4px -4px 6px 0 rgba(255,255,255,.5),
       inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
   }
-  .secright{
-   display: flex;
-   height: 500px;
-   justify-content: center;
-   align-items: center;
-   max-width: 80%;
-   margin: auto;
-   text-align: center;
- }
 
- .paras{
-   padding:0px 65px;
-   font-family: cursive;
-   text-align: center;
-   font-family: cursive;
- }
+
 
 
  #box {
@@ -774,4 +763,23 @@ input[type="submit"] {
   border:none;
   text-align:left;
   cursor:pointer;
+}
+.secright{
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+
+.section-left{
+   flex-direction: row-reverse;
+   display: flex;
+   height: 500px;
+   justify-content: space-evenly;
+   align-items: center;
+   max-width: 80%;
+   margin: auto;
 }
