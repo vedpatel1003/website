@@ -1,0 +1,27 @@
+.firstsection{
+    height: 89vh;
+    text-align:justify;
+    display: flex;
+    font-size:medium;
+    font-family: cursive;
+    min-height: 50VH;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .firstsection img{
+    margin-left: 55%;
+    margin-right: 50%;
+  }
+  .firstsection p{
+    text-align:right;
+}
+.firstsection p{
+ 
+    color:white;
+    font-style:initial;
+    font-size: 50px;
+    text-align-last: right;
+    font-family: cursive;
+    vertical-align: middle;
+    line-height: 90px;
+}
