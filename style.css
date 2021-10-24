@@ -43,7 +43,7 @@ a.active,a:hover{
 
 .background{
     background: rgba(0, 0, 0, 0.7) url('images/bestofbest.jpg');
-    background-size:inherit;
+    background-size:cover;
     opacity: 1.0;
     background-blend-mode:darken;
     background-size: cover;
@@ -103,8 +103,10 @@ a{
     color:white;
     font-style:initial;
     font-size: 50px;
-    text-align: right;
+    text-align-last: right;
     font-family: cursive;
+    vertical-align: middle;
+    line-height: 90px;
 }
 
 
@@ -1031,3 +1033,5 @@ color: white;
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+  
+  
