@@ -13,7 +13,7 @@ body{
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url('images/bestofbest.jpg');
+    background: rgba(0, 0, 0, 0.7) url('../images/bestofbest.jpg');
     background-size:cover;
     opacity: 1.0;
     background-blend-mode:darken;
